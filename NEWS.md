@@ -1,5 +1,8 @@
-# rdist
+# rdist 0.0.2
+- Fixed bug in jaccard distance
+- Added labels to rdist output
 
+# rdist 0.0.1
 An R package to calculate distances. This provide a common framework to calculate distances.  
 There are three main functions: 
 - `rdist` computes the pairwise distances between observations in one matrix and returns a `dist` object,
