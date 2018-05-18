@@ -1,19 +1,21 @@
 Package: rdist
 Title: Calculate Pairwise Distances
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: person("Nello", "Blaser", email = "nello.blaser@uib.no", role = c("aut", "cre"))
 Description: A common framework for calculating distance matrices.
 Depends: R (>= 3.2.2)
 License: GPL
+URL: https://github.com/blasern/rdist
+BugReports: https://github.com/blasern/rdist/issues
 Encoding: UTF-8
 LazyData: true
 LinkingTo: Rcpp, RcppArmadillo
-Imports: Rcpp
+Imports: Rcpp, methods
 RoxygenNote: 6.0.1
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2017-05-12 06:52:01 UTC; nbl003
+Packaged: 2018-05-16 13:54:11 UTC; nbl003
 Author: Nello Blaser [aut, cre]
 Maintainer: Nello Blaser <nello.blaser@uib.no>
 Repository: CRAN
-Date/Publication: 2017-05-12 15:01:48 UTC
+Date/Publication: 2018-05-18 19:26:55 UTC
